@@ -24,6 +24,7 @@ cinst launchy
 cinst beyondcompare
 cinst ilspy
 cinst sumatrapdf
+cinst 1password
 cinst SublimeText3
 cinst windirstat
 cinst vim

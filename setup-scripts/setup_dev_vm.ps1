@@ -41,6 +41,7 @@ cinst resharper
 cinst TotalCommander
 cinst SqlServer2012Express
 cinst poshgit
+cinst python
 
-
-# posh-git
+#nodejs packages
+npm install -g ifs

@@ -41,6 +41,7 @@ cinst resharper
 cinst TotalCommander
 cinst SqlServer2012Express
 cinst poshgit
+cinst python
 
 # packages (non-vm)
 cinst VirtualCloneDrive
@@ -49,5 +50,5 @@ cinst spotify
 cinst steam
 cinst jdownloader
 
-
-# posh-git
+#nodejs packages
+npm install -g ifs

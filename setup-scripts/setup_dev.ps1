@@ -41,6 +41,7 @@ cinst resharper
 cinst TotalCommander
 cinst SqlServer2012Express
 cinst poshgit
+cinst pscx
 cinst python
 
 # packages (non-vm)

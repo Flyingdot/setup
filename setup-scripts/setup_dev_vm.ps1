@@ -2,23 +2,19 @@ Set-ExecutionPolicy Unrestricted
 
 # Chocolatey
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
+& $profile
 
 # Packages
 cinst msysgit
 cinst nodejs.install
-cinst putty
-cinst winscp
 cinst 7zip.install
 cinst nodejs.install
 cinst GoogleChrome
-cinst ChocolateyGUI
-cinst Console2
 cinst Firefox
 cinst sysinternals
 cinst fiddler4
-cinst ccleaner
 cinst AutoHotkey_l.install
-cinst ConEmu
+cinst CmderMini
 cinst linqpad4
 cinst launchy
 cinst beyondcompare
@@ -26,7 +22,7 @@ cinst ilspy
 cinst sumatrapdf
 cinst 1password
 cinst SublimeText3
-cinst windirstat
+cinst treesizefree
 cinst vim
 cinst curl
 cinst Wget
@@ -37,12 +33,14 @@ cinst sqlite.shell
 cinst sqliteadmin
 cinst VisualStudio2013Ultimate
 cinst resharper
-#cinst ncrunch.vs2013
+cinst ncrunch.vs2013
 cinst TotalCommander
-cinst SqlServer2012Express
-cinst poshgit
-cinst pscx
+cinst SqlServer2014Express
+cinst pscx #powershell community extensions
 cinst python
+
+& $profile
+cinst poshgit
 
 #nodejs packages
 npm install -g ifs

@@ -1,5 +1,10 @@
 Set-ExecutionPolicy Unrestricted
 
+# Profile
+If(! Test-Path $profile) {
+  New-Item $profile -ItemType File -Force
+}
+
 # Chocolatey
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
 & $profile

@@ -28,19 +28,9 @@ cinst curl
 cinst Wget
 cinst IrfanView
 cinst SourceTree
-cinst SQLite
-cinst sqlite.shell
-cinst sqliteadmin
-cinst VisualStudio2013Ultimate
-cinst resharper
-cinst ncrunch.vs2013
 cinst TotalCommander
-cinst SqlServer2014Express
 cinst pscx #powershell community extensions
 cinst python
 
 & $profile
 cinst poshgit
-
-#nodejs packages
-npm install -g ifs

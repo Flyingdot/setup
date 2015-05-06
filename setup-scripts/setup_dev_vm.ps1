@@ -1,7 +1,5 @@
-Set-ExecutionPolicy Unrestricted
-
 # Profile
-If(! Test-Path $profile) {
+If(!(Test-Path $profile)) {
   New-Item $profile -ItemType File -Force
 }
 

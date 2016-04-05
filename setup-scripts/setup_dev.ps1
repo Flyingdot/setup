@@ -1,5 +1,6 @@
 # Chocolatey
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChochoco install -yall'))
+. $PROFILE
 
 # Packages
 choco install -y git.install

@@ -23,7 +23,7 @@ choco install -y sumatrapdf
 choco install -y 1password
 choco install -y SublimeText3
 choco install -y windirstat
-choco install -y vim
+choco install -y vim-x64.install
 choco install -y curl
 choco install -y Wget
 choco install -y IrfanView

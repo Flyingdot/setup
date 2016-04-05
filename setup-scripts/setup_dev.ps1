@@ -28,7 +28,6 @@ choco install -y Wget
 choco install -y IrfanView
 choco install -y SourceTree
 choco install -y totalcommander
-choco install -y SqlServer2012Express
 choco install -y pscx
 choco install -y python
 

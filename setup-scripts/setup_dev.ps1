@@ -1,5 +1,5 @@
 # Chocolatey
-iex ((new-object net.webclient).DownloadString('http://bit.ly/psChochoco install -yall'))
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 . $PROFILE
 
 # Packages

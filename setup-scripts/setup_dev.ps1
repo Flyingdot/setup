@@ -1,5 +1,3 @@
-Set-ExecutionPolicy Unrestricted
-
 # Chocolatey
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChochoco install -yall'))
 

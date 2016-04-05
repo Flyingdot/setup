@@ -1,4 +1,4 @@
 setup
 =====
 
-iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/Flyingdot/setup/master/setup-scripts/setup_dev_vm.ps1'))
+(new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/Flyingdot/setup/master/setup-scripts/setup_dev_vm.ps1") | iex

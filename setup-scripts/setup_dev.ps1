@@ -15,7 +15,7 @@ choco install -y cmder
 choco install -y linqpad
 choco install -y beyondcompare
 choco install -y ilspy
-choco install -y sumatrapdf
+choco install -y sumatrapdf.install
 choco install -y windirstat
 choco install -y vim-x64.install
 choco install -y IrfanView

@@ -30,6 +30,7 @@ choco install -y wox
 choco install -y dotnetcore-sdk
 choco install -y VirtualCloneDrive
 choco install -y virtualbox
+choco install -y jdownloader
 refreshenv
 
 # PSGet

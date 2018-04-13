@@ -28,9 +28,8 @@ choco install -y python
 choco install -y everything
 choco install -y wox
 choco install -y dotnetcore-sdk
-choco install -y VirtualCloneDrive
-choco install -y virtualbox
 choco install -y jdownloader
+choco install -y docker
 refreshenv
 
 # PSGet

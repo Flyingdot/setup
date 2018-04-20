@@ -11,7 +11,7 @@ choco install -y GoogleChrome
 choco install -y Firefox
 choco install -y sysinternals
 choco install -y fiddler4
-choco install -y cmder
+choco install -y conemu
 choco install -y linqpad
 choco install -y beyondcompare
 choco install -y ilspy
@@ -27,8 +27,6 @@ choco install -y dropbox
 choco install -y python
 choco install -y everything
 choco install -y wox
-choco install -y dotnetcore-sdk
-choco install -y jdownloader
 choco install -y docker
 refreshenv
 

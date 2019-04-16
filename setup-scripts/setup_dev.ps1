@@ -11,7 +11,7 @@ choco install -y GoogleChrome
 choco install -y Firefox
 choco install -y sysinternals
 choco install -y fiddler4
-choco install -y conemu
+choco install -y cmder
 choco install -y linqpad
 choco install -y beyondcompare
 choco install -y ilspy

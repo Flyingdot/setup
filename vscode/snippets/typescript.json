@@ -23,11 +23,16 @@
 			"});"
 		]
 	},
-	"console-log": {
-		"prefix": "cl",
+	"rxjs-consolelog": {
+		"prefix": "r-cl",
 		"body": [
-			"// tslint:disable-next-line:no-console",
-			"console.log({ $0 });"
+			"tap(() => console.log('$0'),"
+		]
+	},
+	"rxjs-consolelog-object": {
+		"prefix": "r-cl-o",
+		"body": [
+			"tap(x => console.log({ x }),"
 		]
 	}
 }

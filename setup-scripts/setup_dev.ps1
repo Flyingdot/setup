@@ -33,6 +33,7 @@ choco install -y python
 choco install -y everything
 choco install -y wox
 choco install -y docker-desktop
+choco install -y jetbrainstoolbox
 refreshenv
 
 # PSGet

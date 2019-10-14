@@ -34,6 +34,7 @@ choco install -y everything
 choco install -y wox
 choco install -y docker-desktop
 choco install -y jetbrainstoolbox
+choco install -y sublimetext3
 refreshenv
 
 # PSGet

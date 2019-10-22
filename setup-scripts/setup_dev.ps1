@@ -38,6 +38,7 @@ choco install -y sublimetext3
 choco install -y firacode
 choco install -y robo3t
 choco install -y caffeine
+choco install -y postman
 refreshenv
 
 # PSGet

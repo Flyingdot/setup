@@ -29,9 +29,6 @@ choco install -y IrfanView
 choco install -y totalcommander
 choco install -y vscode
 choco install -y dropbox
-choco install -y python
-choco install -y everything
-choco install -y wox
 choco install -y docker-desktop
 choco install -y jetbrainstoolbox
 choco install -y sublimetext3
@@ -39,6 +36,7 @@ choco install -y firacode
 choco install -y robo3t
 choco install -y caffeine
 choco install -y postman
+choco install -y powertoys
 refreshenv
 
 # PSGet
